@@ -12,8 +12,8 @@ class _MySqlDataPageState extends State<MySqlDataPage> {
   final MySQLDatabase _databaseService = MySQLDatabase(
     host: "127.0.0.1",
     port: 3306,
-    userName: "root",
-    password: "@mulindwa",
+    userName: "your username",
+    password: "your password",
     databaseName: "hybrid_fitnes",
   );
   List<Map<String, dynamic>> _data = [];
